@@ -1,0 +1,32 @@
+[
+  {
+    "id": "geoserver-cloud-module-starter",
+    "name": "GeoServer Cloud Module Starter",
+    "description": "Starter project for building and packaging an extension that integrates with GeoServer Cloud.",
+    "type": "Starter",
+    "tags": ["GeoServer Cloud", "GeoServer", "Java", "Spring Boot"],
+    "repository": "https://github.com/multiversio/geoserver-cloud-module-starter",
+    "download": "https://github.com/multiversio/geoserver-cloud-module-starter/releases/latest/download/geoserver-cloud-module-starter.zip",
+    "featured": true
+  },
+  {
+    "id": "geoserver-plugin-example",
+    "name": "GeoServer Plugin Example",
+    "description": "Reference plugin structure for experimenting with GeoServer extensions and packaging.",
+    "type": "Plugin",
+    "tags": ["GeoServer", "Java", "Maven"],
+    "repository": "https://github.com/multiversio/geoserver-plugin-example",
+    "download": "https://github.com/multiversio/geoserver-plugin-example/releases/latest/download/geoserver-plugin-example.zip",
+    "featured": false
+  },
+  {
+    "id": "portolan-geoserver-adapter",
+    "name": "Portolan GeoServer Adapter",
+    "description": "Example adapter connecting Portolan workflows with GeoServer and GeoServer Cloud publishing operations.",
+    "type": "Adapter",
+    "tags": ["Portolan", "GeoServer", "GeoServer Cloud", "Python"],
+    "repository": "https://github.com/multiversio/portolan-geoserver-adapter",
+    "download": "",
+    "featured": false
+  }
+]

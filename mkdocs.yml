@@ -1,0 +1,36 @@
+site_name: Multivers.io Marketplace
+site_description: Open geospatial projects, plugins, experiments and downloadable artifacts from Multivers.io.
+site_url: https://multiversio.github.io/marketplace/
+repo_name: multiversio/marketplace
+repo_url: https://github.com/multiversio/marketplace
+
+theme:
+  name: material
+  language: en
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.svg
+  palette:
+    scheme: slate
+    primary: black
+    accent: cyan
+  features:
+    - navigation.instant
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Marketplace: index.md
+  - About: about.md
+
+extra_css:
+  - assets/stylesheets/marketplace.css
+extra_javascript:
+  - assets/javascripts/marketplace.js
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.highlight
+
+copyright: Copyright &copy; Multivers.io
